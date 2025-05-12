@@ -1,7 +1,7 @@
 *MY ATTEMPT AT THE RECREATION OF THE GAME: KIRBY DREAM LAND*
 
 Current features (subject to change):
-- Initialization: - Main calls Init to set Kirby’s starting position (X=80, Y=128) and state (idle). 
+- Initialization: Main calls Init to set Kirby’s starting position (X=80, Y=128) and state (idle). 
 - EnableInterrupts sets up VBlank.
 - Game Loop: Each frame, GameLoop waits for VBlank (halt), then:
 - Checks input (ReadInput) to move Kirby left/right or start a jump.
