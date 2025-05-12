@@ -12,4 +12,4 @@ Current features (subject to change):
 - Rendering: DrawKirby writes Kirby’s position to OAM, which the Game Boy’s PPU uses to draw him.
 - Interrupts: VBlank ensures smooth screen updates, though the handler is minimal here.
 
-Written in 
+Written in Z80 Assembly. (The instruction set architecture used for the GameBoy) Will get patched later. 
